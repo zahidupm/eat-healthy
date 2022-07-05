@@ -64,5 +64,65 @@ section.section-padding {
     padding-left: 20%;
     height: 100%;
 }
+.recipe-items {
+    display: flex;
+    /* max-width: 40%; */
+    margin-left: 3%;
+    margin-right: 3%;
+}
 
+.single-recipe-item {
+    width: 50%;
+}
+
+.single-recipe-item img {
+    max-height: 400px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.single-recipe-item {
+    box-shadow: 0 0 10px #555;
+    margin: 0 2%;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.recipe-title {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.recipe-title h1 {
+    font-size: 43px;
+}
+
+.single-recipe-item h2 {
+    font-weight: 700;
+    font-size: 28px;
+}
+.single-recipe-item:hover h2 {
+    color: orange;
+}
+.social-followers {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 0 0 10px #555;
+    margin-top: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+
+.social-followers div {
+    width: 28%;
+    text-align: center;
+}
+
+.social-followers div h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
 
