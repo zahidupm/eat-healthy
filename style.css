@@ -125,4 +125,20 @@ section.section-padding {
     font-weight: 700;
     font-size: 40px;
 }
+footer {
+    text-align: center;
+    background: black;
+    color: #fff;
+    padding-bottom: 60px;
+}
+
+footer h3 {
+    color: #999;
+    font-size: 28px;
+    padding-top: 30px;
+}
+
+footer h3 span {
+    color: orange;
+}
 
